@@ -1,21 +1,28 @@
-MIT License
+Contributor License Agreement (CLA)
+Thank you for your interest in contributing to Locomotive!
+By submitting code or other contributions to this project, you agree to the following terms and conditions:
 
-Copyright (c) 2024 V
+1. Grant of Rights
+By submitting contributions (including but not limited to code, documentation, and other materials) to Locomotive, you grant Locomotive's Team the irrevocable, worldwide, non-exclusive, royalty-free, and perpetual right to:
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Use, reproduce, display, distribute, and modify the contributions.
+Incorporate the contributions into the project and any derivative works of the project.
+License or sublicense the contributions to third parties.
+2. Ownership
+You retain ownership of your contributions, but you acknowledge that once submitted, the contributions will be incorporated into the project and can be used in any way allowed by the project's license (which may be a proprietary license or an open-source license, as determined by the project owner).
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+3. No Copying, Modifying, or Redistributing the Entire Project
+You understand that your contributions will be used as part of the project, but you cannot copy, modify, or redistribute the entire project without permission. This project is intended to be owned and controlled by dolovesvw, and contributions are subject to approval.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+4. No Patent Claims
+You agree not to assert any patent claims against Locomotive or its users for the use of your contributions.
+
+5. No Warranty
+The contributions are provided "as-is," without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, or non-infringement.
+
+6. Right to Reject
+Locomotive reserves the right to accept or reject any contributions at its sole discretion.
+
+How to Accept:
+To indicate your acceptance of this Contributor License Agreement, simply submit a pull request with your contributions and acknowledge your understanding of these terms by including a statement like:
+"I have read and agree to the Contributor License Agreement."
