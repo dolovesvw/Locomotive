@@ -11,7 +11,7 @@ body:
       value: |
         ## Bug Report
         Thank you for taking the time to report a bug! Please fill out the following details to help us resolve the issue quickly.
-        Make sure to check [existing issues](../issues) before submitting to avoid duplicates.
+        Make sure to check [existing issues](https://github.com/dolovesvw/Locomotive/issues) before submitting to avoid duplicates.
 
   - type: input
     id: title
