@@ -1,7 +1,11 @@
 name: Bug Report
+
 description: Report a bug in Steamliner
+
 title: "[BUG] <Short description>"
+
 labels: bug, needs-triage
+
 assignees: 
   - your-username
 
