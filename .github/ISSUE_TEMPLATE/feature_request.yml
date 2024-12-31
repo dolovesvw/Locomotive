@@ -1,26 +1,28 @@
 name: Feature Request
-about: Suggest a new feature or enhancement for Steamliner
+description: Suggest a new feature or enhancement for Steamliner
 title: "[FEATURE] <Short description>"
-assignees: 
-  - your-username
 labels: enhancement, needs-triage
+assignees:
+  - your-username
 body:
   - type: markdown
     attributes:
-      value: "## Feature Request Template\nThank you for taking the time to contribute to Steamliner! Please fill out the details below."
+      value: |
+        ## Feature Request Template
+        Thank you for taking the time to contribute to Steamliner! Please fill out the details below.
   - type: input
     id: feature_title
     attributes:
       label: Feature Title
-      description: "Provide a short and descriptive title for the feature request."
-      placeholder: "E.g., Add dark mode theme"
+      description: Provide a short and descriptive title for the feature request.
+      placeholder: E.g., Add dark mode theme
     validations:
       required: true
   - type: textarea
     id: feature_description
     attributes:
       label: Feature Description
-      description: "Explain the feature or enhancement you are suggesting in detail. Provide as much context as possible."
+      description: Explain the feature or enhancement you are suggesting in detail. Provide as much context as possible.
       placeholder: |
         Describe your idea, its purpose, and how it will improve the project.
       render: markdown
@@ -30,7 +32,7 @@ body:
     id: priority_level
     attributes:
       label: Priority Level
-      description: "Select the priority level of this feature request."
+      description: Select the priority level of this feature request.
       options:
         - Low
         - Medium
@@ -41,7 +43,7 @@ body:
     id: affected_areas
     attributes:
       label: Affected Areas
-      description: "Select the parts of the application that will be affected by this feature."
+      description: Select the parts of the application that will be affected by this feature.
       options:
         - label: User Interface
         - label: Backend
@@ -51,6 +53,6 @@ body:
     id: additional_context
     attributes:
       label: Additional Context
-      description: "Provide any other information, context, or screenshots that might help us understand your request better."
-      placeholder: "E.g., Related GitHub issues, external resources, or images."
+      description: Provide any other information, context, or screenshots that might help us understand your request better.
+      placeholder: E.g., Related GitHub issues, external resources, or images.
       render: markdown
