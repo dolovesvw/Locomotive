@@ -1,0 +1,13 @@
+{
+  "name": "steamliner",
+  "version": "0.1.0",
+  "description": "A unified game launcher for all platforms.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/backend/server.js",
+    "build": "tauri build"
+  },
+  "keywords": ["game launcher", "tauri", "react"],
+  "author": "Vsevolod Steshenko",
+  "license": "Custom License"
+}
