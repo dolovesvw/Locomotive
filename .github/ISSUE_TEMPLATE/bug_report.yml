@@ -41,8 +41,6 @@ body:
         - macOS
         - Linux
         - Website
-      validations:
-        required: true
 
   - type: textarea
     id: repro
@@ -71,8 +69,6 @@ body:
       label: Logs (optional)
       description: "If applicable, please include relevant log output or error messages."
       placeholder: "Paste logs here."
-    validations:
-      required: false
 
   - type: checkboxes
     id: confirmations
