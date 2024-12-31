@@ -1,0 +1,86 @@
+name: Bug Report
+description: Report a bug in Steamliner
+title: "[BUG] <Short description>"
+labels: bug, needs-triage
+assignees: 
+  - your-username
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Bug Report
+        Thank you for taking the time to report a bug! Please fill out the following details to help us resolve the issue quickly.
+        Make sure to check [existing issues](../issues) before submitting to avoid duplicates.
+
+  - type: input
+    id: title
+    attributes:
+      label: Bug Title
+      description: "Provide a short title for the bug."
+      placeholder: "The launcher crashes when opening a game."
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: "Please provide a detailed description of the bug."
+      placeholder: "Explain the issue clearly, including steps to reproduce it."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Affected Environment
+      description: "Where does this bug occur?"
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - Website
+      validations:
+        required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to Reproduce
+      description: "List the steps that reliably reproduce this bug."
+      placeholder: |
+        1. 
+        2. 
+        3. 
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Expected Behavior
+      description: "What did you expect to happen?"
+      placeholder: "The launcher should open the game without crashing."
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs (optional)
+      description: "If applicable, please include relevant log output or error messages."
+      placeholder: "Paste logs here."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      description: "Please check all that apply."
+      options:
+        - label: I have searched the existing issues to ensure this bug is not already reported.
+          required: true
+        - label: I have provided all the necessary information to reproduce this bug.
+          required: true
